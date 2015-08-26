@@ -1,3 +1,11 @@
+# A small script that can download or import HTML files
+# After importing, it generates a diff file for the two.
+# Additionally, it can be run from the command line with arguments,
+# So as to increase efficiency.
+
+# Jacob Orner (jayc0b0)
+# ~ 18 July, 2015
+
 import difflib
 import urllib
 import sys
